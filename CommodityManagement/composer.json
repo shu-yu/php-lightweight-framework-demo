@@ -1,0 +1,27 @@
+{
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    },
+    "require": {
+        "illuminate/database": "^5.2",
+        "illuminate/support": "^5.2",
+        "symfony/http-foundation": "^3.1",
+        "monolog/monolog": "^1.20",
+        "symfony/config": "^3.1",
+        "symfony/yaml": "^3.1",
+        "phpunit/phpunit": "^5.5",
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "autoload": {
+        "classmap": [
+            "libraries/",
+            "controllers/",
+            "common/",
+            "models/",
+            "services/"
+        ]
+    }
+}
